@@ -85,12 +85,7 @@ struct BasicTextImageRow: View {
                             .cancel()
                         ])
             
-            .alert(isPresented: $showError) {
-                Alert(title: Text("Não está disponível"),
-                      message: Text("Sorry, está função não está disponível, por favor tente mais tarde."),
-                      
-                      primaryButton: .default(Text("OK")),
-                      secondaryButton: .cancel())
+           
                 
                 
                 
@@ -98,7 +93,7 @@ struct BasicTextImageRow: View {
             }
         }
     }
-}
+
 
 
 /*struct FullImageRow: View {
