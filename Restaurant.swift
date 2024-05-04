@@ -1,7 +1,7 @@
 //
 //  Restaurant.swift
 //  FoodPin
-//
+// That's Good project
 //  Created by Uelinton Andrade on 04/05/24.
 //
 
